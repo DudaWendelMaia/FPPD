@@ -1,4 +1,5 @@
-# Seleção de problemas do Little Book of Semaphores.
+# Trabalho 1 
+Seleção de problemas do Little Book of Semaphores.
 
 
 ## Integrantes do Grupo de Resolução
