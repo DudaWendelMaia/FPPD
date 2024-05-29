@@ -51,11 +51,15 @@ Substitua `nomeArquivo.go` pelo nome do arquivo que deseja executar.
 Para executar o sistema distribuído, siga os passos abaixo:
 
 1. **Configuração dos IPs:**
-   Entre na pasta `usedimex-f` e ajuste os IPs necessários nos arquivos de configuração.
+   Entre na pasta `usedimex-f` e copie os IPs necessários para cada terminal de execução.
 
 2. **Execução em Terminais Diferentes:**
-   Abra três terminais e execute o comando para cada um deles, conforme configurado.
+Abra três terminais e cole o IP configurado em cada um deles. Em seguida, execute o sistema para cada terminal. Isso criará um novo arquivo que mostra a entrada e saída dos processos (sendo as "|" as entradas e os "." as saídas).
 
 - **Link para o Relatório:** [Google Docs](https://docs.google.com/document/d/17DKEDn-sbCOc2t-X6sATWdOPyLLwz9Xp4i4_NPJq6hc/edit?usp=sharing)
 
 Isso exibirá o resultado das implementações dos problemas selecionados, demonstrando a funcionalidade do algoritmo DiMEX em ambientes paralelos e distribuídos.
+
+---
+
+Espero que este trabalho tenha sido útil! 🚀✨
