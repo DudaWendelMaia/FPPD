@@ -1,43 +1,53 @@
-# Trabalho 1 
-Seleção de problemas do Little Book of Semaphores.
+# 🚦 Little Book of Semaphores
 
+<div align="center">
+<img width="150" height="150" src="https://i.pinimg.com/originals/e6/3f/af/e63fafc1600ddf61941ce34362704447.gif">
+</div>
 
-## Integrantes do Grupo de Resolução
+## ℹ️ Informações
+- **Autores:** Arthur Both, Carolina Ferreira, Felipe Freitas, Gabriel Ferreira, Maria Eduarda Maia, Matheus Caçabuena.
+- **Data:** 01/11/2023
+- **Linguagem:** Go
+- **Status:** Concluído
+- **Descrição:** Implementação de uma seleção de problemas do livro "Little Book of Semaphores".
+- **Repositório:** [GitHub](https://github.com/DudaWendelMaia/FPPD.git)
 
-- Arthur Both
-- Carolina Ferreira
-- Felipe Freitas
-- Gabriel Ferreira
-- Maria Eduarda Maia
-- Matheus Caçabuena
+## 🎯 Problema
+Este projeto aborda a implementação de três problemas discutidos em aula, escolhidos a partir do "Little Book of Semaphores".
 
+### 1. Dining Philosophers (Filósofos Jantando)
 
-## Como rodar
+- **Descrição:** Solução com um filósofo canhoto.
+- **Questão:** Por que esta solução não sofre de inanição (starvation)?
+- **Arquivo:** `aFilosofos.go`
 
-Para visualizar o resultado das soluções, basta executar o comando `go run .`.
+### 2. Readers-Writers (Leitores e Escritores sem Starvation)
 
-## Exercícios
+- **Descrição:** Implementação que evita starvation para leitores e escritores.
+- **Capítulo:** 4.2.5.
+- **Arquivo:** `dLeitoresEscritores.go`
 
-Implementar 3 problemas discutidos em aula.
-1. o problema tratado no seu grupo
-2. um problema entre c, d, e 
-3. um problema entre g, f, k
+### 3. Santa Claus (Papai Noel)
 
-### 1. a - Dining Philosophers
+- **Descrição:** Implementação do problema de Santa Claus.
+- **Capítulo:** 5.4.
+- **Arquivo:** `gSantaClaus.go`
 
-- Solução com filósofo canhoto.
-- * Por que esta solução não tem inanição?  (ou starvation)
+## ▶️ Como Executar
+Para executar as soluções, siga os passos abaixo:
 
-Solução implementada no arquivo `aFilosofos.go`
+1. Certifique-se de ter o Go instalado em sua máquina.
+2. Clone o repositório:
+   ```sh
+   git clone https://github.com/DudaWendelMaia/FPPD.git
+   ```
+3. Navegue até a pasta desse trabalho:
+   ```sh
+   cd Trabalho1
+   ```
+4. Execute o comando:
+   ```sh
+   go run .
+   ```
 
-### 2. d - Leitores e escritores sem starvation
-
-- Leitores e escritores sem starvation - 4.2.5.
-
-Solução implementada no arquivo `dLeitoresEscritores.go`
-
-### 3. g - Santa Claus
-
-- Santa Claus - 5.4.
-
-Solução implementada no arquivo `gSantaClaus.go`
+Isso exibirá o resultado das implementações dos problemas selecionados.
