@@ -1,6 +1,7 @@
 # 🖥️ Fundamentos de Processamento Paralelo e Distribuído
+
 <div align="center">
- <img height=150 width=250 src="https://media.tenor.com/iOc4hqMDGuEAAAAj/bubu-dudu-love.gif">
+  <img width="200" height="250" src="https://meneguite.com/2017/10/01/golang-desbravando-uma-linguagem-de-programacao-parte-1/001.gif">
 </div>
 
 Bem-vindo ao repositório da disciplina de **Fundamentos de Processamento Paralelo e Distribuído**! Aqui, você encontrará os trabalhos, 
