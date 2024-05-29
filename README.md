@@ -30,6 +30,13 @@ Abaixo, você encontra a organização dos conteúdos presentes neste repositór
 
 ```
 📦 FPPD
+├── 📁 Exercicios
+│   ├── 📄 ProcessoConcorrente.go
+│   ├── 📄 fibonacci.go
+│   ├── 📄 sharedTest.go
+│   ├── 📄 sincronizacao.go
+│   ├── 📄 soma.go
+│   └── 📄 time.go
 ├── 📁 Trabalho1
 │   ├── 📄 ExLista.pdf
 │   ├── 📄 LittleBookSemaphores.pdf
