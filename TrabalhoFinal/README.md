@@ -41,7 +41,7 @@ Trabalho SD
        ou seja, usando as propriedades de P2PPLink e dado o algoritmo DIMEX,
        por que as propriedades (veja nos slides) do DiMEX são mantidas.
 
-ranscrevemos as Propriedades do DiMEX abaixo:
+Transcrevemos as Propriedades do DiMEX abaixo:
 
 DMX1: (não-postergação e não bloqueio) se um processo solicita Entry,   decorrido algum tempo, o acesso será permitido,
 ou seja ele entrega   resp*  
