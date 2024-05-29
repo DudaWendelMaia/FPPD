@@ -51,6 +51,13 @@ então decorrido um tempo ele vai garantidamente escrever um "dmxResp" no canal 
 
 DMX2: (mutex) Se um processo p entregou dmxResp, nenhum outro processo entregará   dmxResp antes que p sinalize Exit;
 
+
+3. **Trabalho Final:**
+   - Acesse a pasta "Trabalho Final" para explorar os componentes do projeto final.
+   - Encontre a documentação abrangente e os recursos essenciais para compreender e reproduzir o trabalho desenvolvido.
+   - Para rodar a pasta com o sistema paralelo tem que abrir o terminal e digitar "go run nomeArquivo.go" 
+   - Para rodar a parte do sistema distribuído tem que entar na pasta usedimex-f, copiar os IPs abrir, 3 terminais, colar nos três e rodar, isso criará um novo arquivo que mostra a entrada e saída dos processos (sendo as "|" as entradas e os "." as saídas)
+
 (na implementação, significa que
 se em um processo p o módulo  DIMEX entregou "dmxResp" no canal de indicação para a aplicação, então
 em nenhum outro processo  q o módulo DIMEX de q  entregará "dmxResp" para sua aplicação antes que em p
