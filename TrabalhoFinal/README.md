@@ -1,80 +1,61 @@
-# 🖥️ Fundamentos de Processamento Paralelo e Distribuído
+# Sistemas Distribuídos
 
 <div align="center">
-  <img width="200" height="250" src="https://meneguite.com/2017/10/01/golang-desbravando-uma-linguagem-de-programacao-parte-1/001.gif">
+ <img height=150 width=250 src="https://media.tenor.com/iOc4hqMDGuEAAAAj/bubu-dudu-love.gif">
 </div>
 
-Bem-vindo ao repositório da disciplina de **Fundamentos de Processamento Paralelo e Distribuído**! Aqui, você encontrará os trabalhos, 
-projetos entre outras coisas que realizei durante esta cadeira.
+Esta pasta contém os elementos relacionados ao Trabalho Final de Sistemas Distribuídos, incluindo desenvolvimento, documentação e outros artefatos essenciais para a conclusão do projeto.
 
 ## ℹ️ Informações
-- **Status:** Concluída
-- **Realizada em:** 2023/02
-- **Nome:** Fundamentos de Processamento Paralelo e Distribuído
-- **Link:** https://github.com/DudaWendelMaia/LP.git
+- **Autores:** Arthur Both, Carolina Ferreira, Felipe Freitas, Gabriel Ferreira, Maria Eduarda Maia, Matheus Caçabuena.
+- **Data:** 01/11/2023
+- **Linguagem:** Go
+- **Status:** Concluído
+- **Descrição:** implementação DIMEX para sistemas distribuídos.
+- **Repositório:** [GitHub](https://github.com/DudaWendelMaia/FPPD.git)
 
-## 🌟 Visão Geral
+## 🎯 Problema
+O trabalho aborda a implementação de um algoritmo de Exclusão Mútua Distribuída (DIMEX) para sistemas distribuídos. Os detalhes do problema e suas soluções estão descritos nos arquivos `useDIMEX.go` e `useDIMEX-f.go`. O objetivo é garantir que os processos distribuídos operem de forma segura e eficiente, respeitando as propriedades de exclusão mútua.
 
-Esta disciplina de Fundamentos de Processamento Paralelo e Distribuído tem como objetivo:
-- sistemas concorrentes, paralelos e distribuídos.
-- conceitos fundamentais de concorrência e sincronização.
-- propriedades de sistemas concorrentes.
-- canais de comunicação e memória compartilhada
-- impactos da distribuição e os diversos padrões de comunicação em ambiente distribuído.
+### Propriedades do DiMEX
+Transcrevemos as principais propriedades do algoritmo DiMEX abaixo:
+- **DMX1:** Garante não-postergação e não-bloqueio.
+- **DMX2:** Assegura a exclusão mútua.
 
-## 🗂️ Estrutura do Repositório
+## ▶️ Como Executar
+Para testar e executar as soluções, siga os passos abaixo:
 
-Abaixo, você encontra a organização dos conteúdos presentes neste repositório:
+1. **Instalação do Go:**
+   Certifique-se de ter o Go instalado em sua máquina.
 
+2. **Clonagem do Repositório:**
+   ```sh
+   git clone https://github.com/DudaWendelMaia/FPPD.git
+   ```
+   
+3. **Navegação até a Pasta do Trabalho:**
+   ```sh
+   cd TrabalhoFinal
+   ```
+   
+### Sistema Paralelo
+Para rodar o sistema paralelo, execute o seguinte comando no terminal:
+```sh
+go run nomeArquivo.go
 ```
-📦 FPPD
-├── 📁 Exercicios
-│   ├── 📄 ProcessoConcorrente.go
-│   ├── 📄 fibonacci.go
-│   ├── 📄 sharedTest.go
-│   ├── 📄 sincronizacao.go
-│   ├── 📄 soma.go
-│   └── 📄 time.go
-├── 📁 Trabalho1
-│   ├── 📄 ExLista.pdf
-│   ├── 📄 LittleBookSemaphores.pdf
-│   ├── 📄 README.md
-│   ├── 📄 aFilosofos.go
-│   ├── 📄 dLeitoresEscritores.go
-│   ├── 📄 gSantaClaus.go
-│   ├── 📄 globals.go
-│   ├── 📄 go.mod
-│   └── 📄 main.go
-├── 📁 Trabalho Final
-│   ├── 📄 SistemasDistribuidos-main
-│   ├── 📄 SistemasParalelos-main
-│   └── 📄 README.md
-└── 📄 README.md
-```
+Substitua `nomeArquivo.go` pelo nome do arquivo que deseja executar.
 
-## 🔧 Como Utilizar
+- **Link para o Relatório:** [Google Docs](https://docs.google.com/document/d/1hZwiRl1R6qfaZnRajG81AuIG6c954upsHb9wEF3NbPY/edit?usp=sharing)
 
-Para explorar os trabalhos:
-1. Navegue até a pasta do trabalho desejado.
-2. Leia o README.md para entender o contexto do trabalho e as instruções de execução.
-3. Execute conforme as instruções fornecidas.
+### Sistema Distribuído
+Para executar o sistema distribuído, siga os passos abaixo:
 
-## 🚀 Trabalhos Destaques
+1. **Configuração dos IPs:**
+   Entre na pasta `usedimex-f` e ajuste os IPs necessários nos arquivos de configuração.
 
-### Trabalho 1: Seleção de Problemas do Little Book of Semaphores
-Implementar 3 problemas do Little Book of Semaphores, sendo eles: Dining Philosophers,
-Leitores e escritores sem starvation e Santa Claus.
+2. **Execução em Terminais Diferentes:**
+   Abra três terminais e execute o comando para cada um deles, conforme configurado.
 
-### Trabalho Final:  Algoritmo de Exclusão Mútua Distribuída
-implementação e teste do algoritmo de Exclusão Mútua Distribuída (DIMEX) usando templates fornecidos para processos distribuídos.
+- **Link para o Relatório:** [Google Docs](https://docs.google.com/document/d/17DKEDn-sbCOc2t-X6sATWdOPyLLwz9Xp4i4_NPJq6hc/edit?usp=sharing)
 
-## 📫 Contato
-
-Para dúvidas, sugestões ou contribuições, entre em contato:
-- **Nome:** Maria Maia
-- **Email:** mariawendelmaia@gmail.com
-- **LinkedIn:** www.linkedin.com/in/maria-eduarda-wendel-maia
-
----
-
-Espero que este repositório tenha sido útil para você!  🚀✨
+Isso exibirá o resultado das implementações dos problemas selecionados, demonstrando a funcionalidade do algoritmo DiMEX em ambientes paralelos e distribuídos.
